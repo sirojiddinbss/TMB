@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.main {
+  .page__title {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+ul{
+  list-style: none;
+}
+.all__list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.search__list{
+  display: flex;
+  gap: 50px;
+}
+.table__list{
+  margin: 10px 0 10px 0;
+}
+
+.search__item{
+  width: 250px;
+}
+.pagination_list{
+  display: flex;
+  justify-content: space-between;
+}
+.dis{
+  display: flex;
+  justify-content: space-around;
+}
+.dis2{
+  float: left;
+}
